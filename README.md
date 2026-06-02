@@ -1,5 +1,14 @@
 # UAC Spoofer Android
 
+<div align="center">
+
+[![Watch Video](./preview.png)](https://github.com/user-attachments/assets/08c9b44d-204f-405f-965f-2f973a9addfa)
+
+</div>
+
+
+
+
 این پوشه شامل پروژه اصلی Android برنامه UAC Spoofer است. برنامه با Java و Android Gradle Plugin ساخته شده و برای اجرای کانفیگ‌های VLESS و Trojan، راه‌اندازی Xray، ایجاد VPN tunnel محلی و مدیریت SNI Spoofing استفاده می‌شود.
 
 ## اجزای اصلی

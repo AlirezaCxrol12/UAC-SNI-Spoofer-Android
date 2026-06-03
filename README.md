@@ -38,12 +38,17 @@ flowchart TD
 
 ## اجزای اصلی
 
-- `MainActivity`: رابط کاربری، مدیریت کانفیگ‌ها، scanner، لاگ‌ها و کنترل run/stop.
-- `ProxyService`: سرویس foreground برای proxy، مدیریت اتصال‌ها، failover و وضعیت runtime.
-- `XrayRunner`: اجرای Xray Core و تولید config داخلی.
-- `TProxyService`: سرویس VPN و tun2socks.
-- `SniSpoofScanner`: اسکن دامنه‌های SNI و تولید نتایج قابل اعمال.
-- `jniLibs`: باینری‌های native برای `arm64-v8a` و `x86_64`.
+## قابلیت‌های برنامه
+
+* اسکن SNI از لیست دامنه‌های داخلی.
+* انتخاب خودکار بهترین کانفیگ بر اساس کمترین Ping و نتیجه اتصال.
+* اجرای کانفیگ‌های VLESS و Trojan با Xray داخلی.
+* پشتیبانی از **Split Tunneling** برای انتخاب اینکه فقط برنامه‌های مشخص از داخل تونل عبور کنند.
+* پشتیبانی از **Dark Mode / Light Mode** برای شخصی‌سازی ظاهر برنامه.
+* نمایش لاگ زنده برای Start، Stop، Xray، VPN و خطاها.
+* مدیریت VPN محلی و هدایت ترافیک از طریق tun2socks.
+* لینک پشتیبانی تلگرام: `@Beh50roocentzuac`
+
 
 ## قابلیت‌های برنامه
 
